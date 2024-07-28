@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #6a0dad;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .content {
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        .content h2 {
+            color: #6a0dad;
+        }
+        .content p {
+            color: #333;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .quiz-form {
+            max-width: 600px;
+            margin: 2rem auto;
+            text-align: left;
+            background: white;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .quiz-form h3 {
+            color: #6a0dad;
+        }
+        .quiz-form label {
+            display: block;
+            margin: 1rem 0 0.5rem;
+            color: #333;
+        }
+        .quiz-form input[type="radio"] {
+            margin-right: 0.5rem;
+        }
+        .quiz-form button {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            margin: 1rem 0;
+            background-color: #6a0dad;
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .quiz-form button:hover {
+            background-color: #ffdd00;
+            color: #6a0dad;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Career Quiz</h1>
+    </header>
+    <section class="content">
+        <h2>Find Your Ideal Career Path</h2>
+        <p>Answer the following questions to get a better idea of what career path might be best for you.</p>
+        <form class="quiz-form" action="#" method="post">
+            <h3>Question 1: What subjects did you enjoy most in school?</h3>
+            <label><input type="radio" name="question1" value="a">Math and Science</label>
+            <label><input type="radio" name="question1" value="b">Art and Literature</label>
+            <label><input type="radio" name="question1" value="c">Physical Education</label>
+            <label><input type="radio" name="question1" value="d">Social Studies</label>
+
+            <h3>Question 2: What type of work environment do you prefer?</h3>
+            <label><input type="radio" name="question2" value="a">Office</label>
+            <label><input type="radio" name="question2" value="b">Outdoors</label>
+            <label><input type="radio" name="question2" value="c">Laboratory</label>
+            <label><input type="radio" name="question2" value="d">Classroom</label>
+
+            <h3>Question 3: What is most important to you in a career?</h3>
+            <label><input type="radio" name="question3" value="a">High salary</label>
+            <label><input type="radio" name="question3" value="b">Helping others</label>
+            <label><input type="radio" name="question3" value="c">Job security</label>
+            <label><input type="radio" name="question3" value="d">Creative freedom</label>
+
+            <h3>Question 4: What kind of activities do you enjoy in your free time?</h3>
+            <label><input type="radio" name="question4" value="a">Solving puzzles</label>
+            <label><input type="radio" name="question4" value="b">Drawing or painting</label>
+            <label><input type="radio" name="question4" value="c">Playing sports</label>
+            <label><input type="radio" name="question4" value="d">Volunteering</label>
+
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </section>
+</body>
+</html>
